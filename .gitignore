@@ -1,5 +1,13 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-
-# Ignore Gradle build output directory
-build
+# 本ファイルはプロジェクトフォルダ直下に配置することを想定している
+/bin/*
+/build/*
+/report/*
+/.gradle/*
+.classpath
+.project
+/.settings/*
+!.settings/com.hitachi.devsuite.kernel.prefs
+/.gradle/
+/build/
+/pages/*
+/pages/
